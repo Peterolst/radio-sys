@@ -1,7 +1,9 @@
 A simple service for handling of devices in a radio system.
 
 Pre-building run `npm install` from project root to install dependencies.
+
 To build the application run `npm run build` from the project root.
+
 To run the application run `npm start` from the project root.
 
 In order to simplify run process I have pre-built and allowed git to track ALL files, including `dist` and `node_modules` (I wouldn't normally do this in a prod environment).
