@@ -1,5 +1,5 @@
 # use latest version of node
-FROM mhart/alpine-node:latest
+FROM mhart/alpine-node:10.16
 
 # set working directory
 WORKDIR /dist

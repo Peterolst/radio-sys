@@ -81,6 +81,7 @@ exports.getLocation = async (req, res) => {
 };
 
 exports.clearAllRadios = async (req, res) => {
+	// Clear all radio profiles
 	Radios.radios = [];
 	saveRadios();
 	res.json({ status: 200, response: "Cleared all radio profiles"});
